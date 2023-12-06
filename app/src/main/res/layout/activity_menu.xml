@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.Menu"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿DÓNDE QUIERES IR?"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    
+    <Button
+        android:id="@+id/eventosButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="EVENTOS"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="332dp"/>
+
+    <Button
+        android:id="@+id/tareasButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="TAREAS"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="412dp"/>
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="INFORMACIÓN"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="492dp"/>
+
+</LinearLayout>

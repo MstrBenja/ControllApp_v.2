@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicioUsuario.InicioSesion"
+    android:id="@+id/disenho">
+
+    <TextView
+        android:id="@+id/titleUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <EditText
+        android:id="@+id/userUI"
+        android:layout_width="280dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="usuario o correo"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/passwordUI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <EditText
+        android:id="@+id/passwordUI"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="424dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/loginUI"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:text="Ingresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordUI"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/commentUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No has iniciado sesión?, ¿Registrate!"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginUI"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <Button
+        android:id="@+id/registerUI"
+        android:layout_width="231dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commentUI"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Switch
+        android:id="@+id/modeUI"
+        android:layout_width="167dp"
+        android:layout_height="38dp"
+        android:text="Cambiar modo"
+        android:textOff="Modo oscuro"
+        android:textOn="Modo claro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

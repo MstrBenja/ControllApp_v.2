@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ControllApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="information">
+        Información de @nombre_de_usuario \n \n \n
+
+        ============================================= \n
+              INFORMACIÓN DE USO DE APLICACIÓN. \n \n
+
+        Tiempo de uso de la aplicación: tiempo\n \n
+        Día de inicio en la aplicación:  \n \n
+
+        ============================================= \n \n
+                  INFORMACIÓN DE TAREAS.  \n \n
+
+        Tareas completadas: \n \n
+        Tareas sin completar:  \n \n
+        Tareas borradas: \n \n
+        Tareas actualizadas \n \n
+
+        ============================================= \n
+                  INFORMACIÓN DE EVENTOS. \n \n
+
+        Eventos creados: \n \n
+        Eventos borrados: \n \n
+        Horas contabilizadas de eventos: \n \n
+        Horas no contabilidadas: \n \n
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

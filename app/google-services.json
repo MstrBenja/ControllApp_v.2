@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "99977950348",
+    "firebase_url": "https://controllappdb-default-rtdb.firebaseio.com",
+    "project_id": "controllappdb",
+    "storage_bucket": "controllappdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99977950348:android:345f2167d64cfc8908f7a9",
+        "android_client_info": {
+          "package_name": "com.example.controllapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6l32SsN53CA1Jea1baKYcrbXsBfOKKG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99977950348:android:fbe77f50ca790acf08f7a9",
+        "android_client_info": {
+          "package_name": "controllApp.paquetes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6l32SsN53CA1Jea1baKYcrbXsBfOKKG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

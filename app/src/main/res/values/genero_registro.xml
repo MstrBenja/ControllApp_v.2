@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combo_genero">
+
+        <item>Elegir Opción</item>
+        <item>Mujer</item>
+        <item>Hombre</item>
+        <item>No Binario</item>
+        <item>Mejor no Responder</item>
+
+    </string-array>
+
+</resources>

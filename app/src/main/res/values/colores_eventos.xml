@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combo_colores">
+
+        <item>Elegir un color</item>
+        <item>Rojo </item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Negro</item>
+        <item>Azul</item>
+        <item>Morado</item>
+        <item>Naranjo</item>
+        <item>Rosado</item>
+        <item>Celeste</item>
+
+    </string-array>
+
+</resources>

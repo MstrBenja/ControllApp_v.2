@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicioUsuario.Registro"
+    android:id="@+id/scrollview">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TituloUI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="141dp"
+            android:layout_marginEnd="140dp"
+            android:text="REGISTRARSE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.078" />
+
+        <EditText
+            android:id="@+id/nombreUI"
+            android:layout_width="245dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Nombre y apellido"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailUI" />
+
+        <EditText
+            android:id="@+id/emailUI"
+            android:layout_width="246dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="136dp"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edadUI"
+            android:layout_width="246dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Edad"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombreUI" />
+
+        <TextView
+            android:id="@+id/generoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="178dp"
+            android:text="Género"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edadUI" />
+
+        <Spinner
+            android:id="@+id/generoUI"
+            android:layout_width="246dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/generoText" />
+
+        <EditText
+            android:id="@+id/userNameUI"
+            android:layout_width="246dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Nombre de Usuario"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/generoUI" />
+
+        <EditText
+            android:id="@+id/contrasenhaUI"
+            android:layout_width="245dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userNameUI" />
+
+        <Button
+            android:id="@+id/registrarseUI"
+            android:layout_width="172dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="120dp"
+            android:text="Registrarse"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/contrasenhaUI" />
+
+        <Button
+            android:id="@+id/goBackUI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="72dp"
+            android:text="¿Ya estás registrado? Inicia Sesión"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registrarseUI" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
